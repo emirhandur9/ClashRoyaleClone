@@ -38,7 +38,7 @@ public class GameManager : MonoBehaviour
     {
         while (IsGameStarted)
         {
-            yield return new WaitForSeconds(2);
+            yield return new WaitForSeconds(1);
             if(playerElixirCount.Value < 10)
             {
                 playerElixirCount.Value++;

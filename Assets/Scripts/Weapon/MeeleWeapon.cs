@@ -19,13 +19,10 @@ public class MeeleWeapon : WeaponBase
 
     public void WeaponHitAnimEvent()
     {
-        try
+        if ((lastTarget as UnityEngine.Object))
         {
             lastTarget.GetDamage(DamageAmount);
         }
-        catch (NullReferenceException ex)
-        {
-            Debug.Log("Enemy dead");
-        }
+
     }
 }

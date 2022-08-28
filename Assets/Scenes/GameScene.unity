@@ -3244,7 +3244,6 @@ MonoBehaviour:
   gameFinishedPanel: {fileID: 676329852}
   gameFinishedText: {fileID: 1595062037}
   enemyMaterial: {fileID: 2100000, guid: 271283b849c265f438aac65e17fd27c0, type: 2}
-  bg: {fileID: 0}
 --- !u!1 &1546293341
 GameObject:
   m_ObjectHideFlags: 0
