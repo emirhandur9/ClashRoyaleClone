@@ -72,7 +72,7 @@ public class GameManager : MonoBehaviour
 
     public void SpawnEnemySoldier()
     {
-        Vector3 randomPos = new Vector3(UnityEngine.Random.Range(-4.25f, 4.25f), 0.85f, UnityEngine.Random.Range(18f, 12f));
+        Vector3 randomPos = new Vector3(UnityEngine.Random.Range(-4.25f, 4.25f), 0.85f, UnityEngine.Random.Range(18f, 13f));
         SoldierCard card = meeleSoldierCard;
 
         SoldierBase soldier = Instantiate(card.prefab, randomPos, Quaternion.identity).GetComponent<SoldierBase>();
